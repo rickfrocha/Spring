@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar version="3.2" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/ejb-jar_3_2.xsd">
+	
+   <enterprise-beans>
+     <session>
+        <ejb-name>MyDAOEJBWithSpringJDBC</ejb-name>
+        <ejb-class>br.com.testes.dao.MyDAOEJBWithSpringJDBC</ejb-class>
+        <resource-ref>
+           <res-ref-name>jdbc/myDS</res-ref-name>
+           <res-type>javax.sql.DataSource</res-type>
+        </resource-ref>
+     </session>
+   
+   </enterprise-beans>	
+</ejb-jar>
