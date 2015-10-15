@@ -1,0 +1,10 @@
+br\com\configurations\SpringMVCConfiguration.class
+br\com\controllers\PessoaController.class
+br\com\services\PessoaServiceInterface.class
+br\com\restservice\PessoaResource.class
+br\com\services\IndexService.class
+br\com\controllers\IndexController.class
+br\com\services\IndexServiceInterface.class
+br\com\services\PessoaService.class
+br\com\entity\Pessoa.class
+br\com\configurations\WebInitializer.class
