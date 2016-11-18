@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cucumber_test.CucumberBase" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="developer" time="0.0">
+  <properties/>
+  <system-out><![CDATA[# language: pt
+Funcionalidade: Teste API
+quando
+entao
+
+  Cenario: API                        ?[90m# features/teste.feature:5?[0m
+    ?[32mDado ?[0m?[32mUsuario deseja acessar a api?[0m ?[90m# MyStepdefs.usuarioDesejaAcessarAApi()?[0m
+    ?[32mQuando ?[0m?[32mAcessar a URL?[0m              ?[90m# MyStepdefs.acessarAURL()?[0m
+    ?[32mEntao ?[0m?[32mRetorna ok?[0m                  ?[90m# MyStepdefs.retornaOk()?[0m
+
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+0m0,132s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

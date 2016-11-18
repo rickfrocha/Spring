@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cenario: API" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-08-31T01:37:45" hostname="developer" time="0.003">
+  <properties/>
+  <testcase name="Dado Usuario deseja acessar a api" classname="Cenario: API" time="0.001"/>
+  <testcase name="Quando Acessar a URL" classname="Cenario: API" time="0.0"/>
+  <testcase name="Entao Retorna ok" classname="Cenario: API" time="0.0"/>
+  <testcase name="classMethod" classname="Cenario: API" time="0.239"/>
+  <system-out><![CDATA[22:37:45.786 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Registering scope 'cucumber-glue' with implementation [cucumber.runtime.java.spring.GlueCodeScope@45afaa72]
+22:37:45.916 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean 'cucumber_test.features.MyStepdefs'
+22:37:45.928 [Test worker] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean 'cucumber_test.features.MyStepdefs'
+iniciando 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
